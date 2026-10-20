@@ -1,0 +1,33 @@
+name: Public Case Study Validation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate required public files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f case-study.md
+          test -f assets/architecture.svg
+          test -f docs/technical-overview.md
+          test -f docs/validation-evidence.md
+          test -f docs/disclosure-boundary.md
+          test -f NOTICE.md
+      - name: Reject private delivery artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -E '(^|/)\.env$|\.json$|\.(pem|key|p12|pfx|kdbx)$'; then
+            exit 1
+          fi

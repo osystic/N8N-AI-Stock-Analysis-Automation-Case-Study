@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">N8N AI Stock Analysis Automation Architecture</title>
+  <desc id="desc">A sanitized architecture showing web input, n8n orchestration, external market and chart APIs, AI analysis, formatting, and response.</desc>
+  <rect width="1200" height="420" rx="28" fill="#07111f"/>
+  <text x="600" y="48" fill="#f8fafc" font-size="28" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">AI Stock Analysis Automation</text>
+  <g font-family="Arial, sans-serif" font-size="17" text-anchor="middle">
+    <g>
+      <rect x="40" y="150" width="170" height="84" rx="16" fill="#10233d" stroke="#7dd3fc" stroke-width="2"/>
+      <text x="125" y="184" fill="#f8fafc">Website / App</text>
+      <text x="125" y="208" fill="#bae6fd">Symbol + Interval</text>
+    </g>
+    <g>
+      <rect x="260" y="150" width="170" height="84" rx="16" fill="#10233d" stroke="#7dd3fc" stroke-width="2"/>
+      <text x="345" y="184" fill="#f8fafc">n8n Webhook</text>
+      <text x="345" y="208" fill="#bae6fd">Validation</text>
+    </g>
+    <g>
+      <rect x="480" y="82" width="190" height="84" rx="16" fill="#10233d" stroke="#86efac" stroke-width="2"/>
+      <text x="575" y="116" fill="#f8fafc">Market / Profile</text>
+      <text x="575" y="140" fill="#bbf7d0">External APIs</text>
+    </g>
+    <g>
+      <rect x="480" y="218" width="190" height="84" rx="16" fill="#10233d" stroke="#86efac" stroke-width="2"/>
+      <text x="575" y="252" fill="#f8fafc">Chart Context</text>
+      <text x="575" y="276" fill="#bbf7d0">External API</text>
+    </g>
+    <g>
+      <rect x="720" y="150" width="190" height="84" rx="16" fill="#10233d" stroke="#c4b5fd" stroke-width="2"/>
+      <text x="815" y="184" fill="#f8fafc">AI Analysis</text>
+      <text x="815" y="208" fill="#ddd6fe">Multi-stage</text>
+    </g>
+    <g>
+      <rect x="960" y="150" width="190" height="84" rx="16" fill="#10233d" stroke="#f9a8d4" stroke-width="2"/>
+      <text x="1055" y="184" fill="#f8fafc">Formatted</text>
+      <text x="1055" y="208" fill="#fbcfe8">Webhook Response</text>
+    </g>
+  </g>
+  <g stroke="#94a3b8" stroke-width="3" fill="none">
+    <path d="M210 192 H260"/>
+    <path d="M430 192 H455 V124 H480"/>
+    <path d="M430 192 H455 V260 H480"/>
+    <path d="M670 124 H695 V192 H720"/>
+    <path d="M670 260 H695 V192 H720"/>
+    <path d="M910 192 H960"/>
+  </g>
+  <g fill="#94a3b8">
+    <polygon points="260,192 248,185 248,199"/>
+    <polygon points="480,124 468,117 468,131"/>
+    <polygon points="480,260 468,253 468,267"/>
+    <polygon points="720,192 708,185 708,199"/>
+    <polygon points="960,192 948,185 948,199"/>
+  </g>
+  <text x="600" y="374" fill="#94a3b8" font-size="15" font-family="Arial, sans-serif" text-anchor="middle">Sanitized public architecture · credentials and confidential implementation excluded</text>
+</svg>
