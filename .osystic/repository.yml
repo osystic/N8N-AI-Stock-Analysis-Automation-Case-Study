@@ -1,0 +1,64 @@
+schema_version: 2
+repository_class: public-showcase
+visibility: public
+lifecycle: maintenance
+project_status: completed-client-delivery
+owner_team: engineering
+data_classification: public
+client_identity_public: false
+
+portfolio:
+  eligible: true
+  status: approved-public-showcase
+  publisher: OSYSTIC
+  presentation_standard: company-engineering-case-study
+
+source:
+  type: sanitized-client-delivery
+  confidential_source_linked: false
+  source_code_included: false
+  production_trading_ready: false
+  brokerage_execution_included: false
+  recovery_audit_reviewed: true
+
+publication:
+  last_reviewed_on: 2026-10-26
+  branded_as_osystic: true
+  reuse_boundary_defined: true
+  open_source_license_granted: false
+  contact_information_included: false
+  credentials_included: false
+  private_infrastructure_included: false
+  contract_or_payment_details_included: false
+  private_conversations_included: false
+  private_customer_data_included: false
+  private_datasets_included: false
+  recovered_private_artifacts_included: false
+  independent_git_history: true
+
+claims:
+  profitability_claimed: false
+  production_alpha_claimed: false
+  live_execution_validated: false
+  financial_advice_claimed: false
+
+validation:
+  public_safety_ci_required: true
+  confidential_workflow_source_excluded: true
+  credential_material_excluded: true
+
+delivery:
+  default_branch: main
+  ci_required: true
+  production_environment: false
+
+project:
+  key: n8n-ai-stock-analysis-automation
+  name: N8N AI Stock Analysis Automation
+  status: completed
+
+website:
+  eligible: true
+  status: ready-for-review
+  canonical_slug: n8n-ai-stock-analysis-automation
+  auto_sync: true
