@@ -62,3 +62,7 @@ website:
   status: ready-for-review
   canonical_slug: n8n-ai-stock-analysis-automation
   auto_sync: true
+  cover:
+    path: assets/architecture.png
+    kind: illustration
+    alt: Sanitized architecture illustration of the n8n AI stock analysis automation pipeline.
