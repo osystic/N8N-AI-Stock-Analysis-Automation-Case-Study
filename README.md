@@ -18,6 +18,10 @@ This repository documents a private automation engagement in which OSYSTIC desig
 | Live-trading claim | None |
 | Intended use | Portfolio, proposals, technical review, capability proof |
 
+## Executive summary
+
+OSYSTIC documented a completed, confidential stock-analysis workflow delivery built around n8n webhooks, request validation, external market and chart context, multi-stage AI analysis, and structured responses for a calling application. This public companion supplies a reviewed architecture and evidence boundary, not the private runtime or a claim about trading performance.
+
 ## What was engineered
 
 The private system accepts a stock symbol and interval through a webhook-driven workflow, validates and normalizes the request, collects market and company context from external APIs, obtains chart context, runs multiple AI analysis stages, formats the result, and returns a structured response to a calling web application.
@@ -55,6 +59,10 @@ n8n · Node.js · Docker · Webhooks · OpenAI-compatible nodes · REST APIs · 
 The private canonical repository validates workflow structure, credential hygiene and repository safety. This public case study validates only the sanitized documentation boundary.
 
 This showcase does not independently validate market-data accuracy, real-time execution latency, investment outcomes, live brokerage behavior, profitability, win rate, alpha, ROI or suitability for financial decision-making.
+
+## Ownership and handover boundary
+
+The operational workflow remains in the restricted canonical repository rather than this public showcase. Its runtime setup, credential binding and provider access require authorized operators; the sanitized public companion is intended for portfolio review only. This repository is not a deployable handover package, and no private source transfer or customer acceptance beyond the documented evidence is asserted here.
 
 ## Public vs private boundary
 
