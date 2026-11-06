@@ -1,5 +1,9 @@
 # Case Study
 
+## Executive summary
+
+This case study describes OSYSTIC's completed private engineering engagement for a webhook-driven n8n stock research workflow. Its verified public deliverable is a sanitized architectural narrative showing request validation, market data collection, staged AI reasoning and structured response delivery. Neither the public documentation nor its architecture illustration establishes live profitability, forecast accuracy, brokerage execution or operational uptime.
+
 ## Challenge
 
 The engagement required a workflow that could accept a stock-analysis request from a web interface, gather relevant external market context, run AI-assisted analysis and return a response in a format suitable for frontend display.
